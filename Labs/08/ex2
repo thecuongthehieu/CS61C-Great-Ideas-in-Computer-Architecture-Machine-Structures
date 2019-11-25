@@ -1,0 +1,10 @@
+a. Which ordering(s) perform best for 1000-by-1000 matrices?
+	jki, kji
+
+b. Which ordering(s) perform the worst?
+	ikj, kij
+
+c. How does the way we stride through the matrices with respect to the innermost loop affect performance?
+	jki, kji : C stride 1, A stride 1, B stride 0 (best) (1 + 1 + 0)
+	ikj, kij : C stride n, A stride 0, B stride n (worst) (n + 0 + n)
+	ijk, jik : C stride 0, A stride n, B strude 1 (0 + n + 1)
