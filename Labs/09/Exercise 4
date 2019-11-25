@@ -1,0 +1,4 @@
+1. Show your TA the unrolled implementation and performance improvement.
+
+2. Explain to your TA why the version that has not been manually optimized outperforms some of the manually optimized versions (what does the -O3 flag do?).
+	Ans: -O... is optimization level
