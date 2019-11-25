@@ -1,0 +1,4 @@
+Exercise 2: Dot Product
+	- Explain the difference in performance that Built-In Reduction of OMP is faster than manually implementation of Reduction?
+		Because of Second Phase. In case of Built-In, it can compute global_sum parallel (like Slide)
+	- Reference: https://stackoverflow.com/questions/20416277/openmp-slower-reduction
